@@ -1,0 +1,240 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ARFactories007"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"value": ""
+		},
+		"DS_SQL_N_accountKey": {
+			"value": ""
+		},
+		"LS_BULK_EXCEL_accountKey": {
+			"value": ""
+		},
+		"LS_CPYACT_BLOB_connectionString": {
+			"value": ""
+		},
+		"LS_CPYACT_SQL_password": {
+			"value": ""
+		},
+		"LS_CSVDatamovement_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_BULK_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_BULK_accountKey": {
+			"value": ""
+		},
+		"LS_Eventtrigger_accountKey": {
+			"value": ""
+		},
+		"LS_LOOKUP_accountKey": {
+			"value": ""
+		},
+		"LS_LOOKUP_SQL_password": {
+			"value": ""
+		},
+		"LS_MULTIPLE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_MULTI_BULK_accountKey": {
+			"value": ""
+		},
+		"LS_MULTI_CSV_BULK_accountKey": {
+			"value": ""
+		},
+		"LS_RESTAPI_B_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_CSV_BULK_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_password": {
+			"value": ""
+		},
+		"LS_eventtr_accountKey": {
+			"value": ""
+		},
+		"Ls_emptydatachk_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_storedprocedure_password": {
+			"value": ""
+		},
+		"ds_metadata_sql_password": {
+			"value": ""
+		},
+		"ls_LOOKUP_filter_accountKey": {
+			"value": ""
+		},
+		"ls_csvadlsmove_accountKey": {
+			"value": ""
+		},
+		"ls_ifchk_accountKey": {
+			"value": ""
+		},
+		"ls_metadata_accountKey": {
+			"value": ""
+		},
+		"ls_metadata_n_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"DS_SQL_N_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"LS_BULK_EXCEL_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net"
+		},
+		"LS_CPYACT_SQL_properties_typeProperties_server": {
+			"value": "DESKTOP-DPP39J1"
+		},
+		"LS_CPYACT_SQL_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_CPYACT_SQL_properties_typeProperties_userName": {
+			"value": "ar7"
+		},
+		"LS_CSVDatamovement_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"LS_CSV_BULK_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net"
+		},
+		"LS_EXCEL_BULK_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"LS_Eventtrigger_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"LS_LOOKUP_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"LS_LOOKUP_SQL_properties_typeProperties_server": {
+			"value": "DESKTOP-DPP39J1"
+		},
+		"LS_LOOKUP_SQL_properties_typeProperties_database": {
+			"value": "vbproject"
+		},
+		"LS_LOOKUP_SQL_properties_typeProperties_userName": {
+			"value": "ar7"
+		},
+		"LS_MULTIPLE_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"LS_MULTI_BULK_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"LS_MULTI_CSV_BULK_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"LS_RESTAPI_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/eCCeyI/data"
+		},
+		"LS_RESTAPI_B_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"LS_SINK_CSV_BULK_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"LS_SQL_properties_typeProperties_server": {
+			"value": "DESKTOP-DPP39J1"
+		},
+		"LS_SQL_properties_typeProperties_database": {
+			"value": "vbproject"
+		},
+		"LS_SQL_properties_typeProperties_userName": {
+			"value": "ar7"
+		},
+		"LS_eventtr_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"Ls_emptydatachk_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"SqlServer1_storedprocedure_properties_typeProperties_server": {
+			"value": "DESKTOP-DPP39J1"
+		},
+		"SqlServer1_storedprocedure_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer1_storedprocedure_properties_typeProperties_userName": {
+			"value": "ar7"
+		},
+		"ds_metadata_sql_properties_typeProperties_server": {
+			"value": "DESKTOP-DPP39J1"
+		},
+		"ds_metadata_sql_properties_typeProperties_database": {
+			"value": "vbproject"
+		},
+		"ds_metadata_sql_properties_typeProperties_userName": {
+			"value": "ar7"
+		},
+		"ls_LOOKUP_filter_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"ls_csvadlsmove_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"ls_ifchk_properties_typeProperties_url": {
+			"value": "https://adlsdevbulk.dfs.core.windows.net/"
+		},
+		"ls_metadata_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"ls_metadata_n_properties_typeProperties_url": {
+			"value": "https://adlsdevar007.dfs.core.windows.net/"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/2717816c-3de6-4c1a-8fa9-442e42450482/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/adlsdevbulk"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
