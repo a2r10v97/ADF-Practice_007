@@ -1,0 +1,9 @@
+{
+	"name": "ARFactories007",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2d0e6fee-4da9-4794-a4b0-89e923aba518",
+		"tenantId": "91beabe4-b8f5-4b8c-9946-7a6dcf6d8c16"
+	}
+}

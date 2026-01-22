@@ -1,0 +1,12 @@
+{
+	"name": "ls_ifchk",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlsdevbulk.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDhCNTc4RDUwLTNEREQtNDhGRi05ODYxLTQzQTk2OTM5Qjk1Ql8wYjJmYjQ5Zi0yNTIwLTQ0ZTItYjczOC1iMGQ1YTAxZjcwOGIiDQp9"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"name": "TR_CSV_BULKUPLAD",
+	"properties": {
+		"description": "trigger implementation for bulk csv load",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-01-19T11:53:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
