@@ -1,0 +1,13 @@
+{
+	"name": "DS_AzureSqlTablecsvORexl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_AzureSqlTablecsvORexl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

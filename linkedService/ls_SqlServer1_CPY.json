@@ -1,0 +1,21 @@
+{
+	"name": "ls_SqlServer1_CPY",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-DPP39J1",
+			"database": "ARproject",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "ar7",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxODBiMzgxMi01ZmJiLTQ0NDYtYWViNy0zMjk2N2VhZWM1YzAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime17",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
